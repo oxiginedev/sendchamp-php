@@ -1,0 +1,35 @@
+{
+    "name": "adedaramola/sendchamp-php-sdk",
+    "description": "Sendchamp php sdk",
+    "keywords": [
+        "php",
+        "sendchamp-php",
+        "sendchamp-sdk",
+        "sdk"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/Adedaramola/sendchamp-php-sdk",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Adedaramola\\Sendchamp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adedaramola",
+            "email": "mailstokindle@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
