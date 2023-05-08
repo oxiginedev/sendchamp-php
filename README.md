@@ -15,8 +15,8 @@ require __DIR__ '/../vendor/autoload.php';
 
 use Adedaramola\Sendchamp\Sendchamp;
 
-$sendchamp = new Sendchamp('api-public-key');
 // For production environment, provide "live" as second argument
+$sendchamp = new Sendchamp('api-public-key');
 
 // Send sms
 $sendchamp->sms()->send([
@@ -52,6 +52,6 @@ Please feel free to fork this package and contribute by submitting a pull reques
 
 ## Support
 Kindly leave a star on the repo, this makes me glad.
-Reach out on [twitter](https://twitter.com/tisbolu)
+Reach out on [twitter](https://twitter.com/sopethedev)
 
 Adedaramola Adetimehin.
